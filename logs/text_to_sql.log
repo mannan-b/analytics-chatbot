@@ -1,0 +1,746 @@
+2025-10-16 07:46:13,933 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 07:46:13,964 - services.prompt_classifier - ERROR - LLM classification failed: invalid literal for int() with base 10: '1,'
+2025-10-16 07:46:17,137 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:19,721 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-16 07:46:20,844 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-16 07:46:23,186 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:24,728 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:26,123 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:26,640 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:27,015 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:27,841 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:28,985 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:29,676 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:30,590 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:30,972 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:31,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:31,753 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:32,224 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:32,670 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:33,842 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:34,955 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:35,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:36,805 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:37,204 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:38,223 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:38,837 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:39,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:39,698 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:40,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:40,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:40,988 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:41,370 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:41,754 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:42,178 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:42,581 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:43,286 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:43,705 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:44,110 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:44,555 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:44,980 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:45,397 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:45,854 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:46,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:46,633 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:47,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:47,452 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:47,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:48,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:48,739 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:49,151 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:49,905 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:50,340 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:50,730 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:51,131 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:52,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:53,164 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:53,539 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:53,964 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:54,308 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:54,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:55,157 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:55,570 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:55,967 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:56,407 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:56,837 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:57,672 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:58,136 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:58,541 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:59,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:46:59,581 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:00,485 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:01,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:01,490 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:01,891 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:02,917 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:03,298 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:03,716 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:04,116 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:04,455 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:04,843 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:05,811 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:06,942 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:07,753 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:08,148 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:08,536 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:08,917 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:09,370 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:09,828 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:10,428 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:10,860 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:11,256 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 07:47:13,884 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 07:47:13,914 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-16 07:47:14,836 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 07:47:15,561 - httpx - INFO - HTTP Request: POST https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/rpc/exec_sql "HTTP/2 404 Not Found"
+2025-10-16 08:28:36,348 - mainn - INFO - [INIT] Starting SMART Vector Text-to-SQL System
+2025-10-16 08:28:38,113 - mainn - INFO - [OK] SMART SYSTEM READY:
+2025-10-16 08:28:38,113 - mainn - INFO - [OK] Vector-based table/column selection
+2025-10-16 08:28:38,113 - mainn - INFO - [OK] Smart SQL pattern matching
+2025-10-16 08:28:38,114 - mainn - INFO - [OK] Minimal context prompts
+2025-10-16 08:28:38,114 - mainn - INFO - [OK] 70% cosine similarity threshold
+2025-10-16 08:29:06,242 - mainn - INFO - [QUERY] Processing: give me salary of employees
+2025-10-16 08:29:07,473 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 08:29:07,512 - services.prompt_classifier - ERROR - LLM classification failed: invalid literal for int() with base 10: '1,'
+2025-10-16 08:29:07,524 - mainn - INFO - [CLASS] invalid_question (confidence: 0.60)
+2025-10-16 08:29:20,254 - mainn - INFO - [QUERY] Processing: show me salary of employees
+2025-10-16 08:29:21,153 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 08:29:21,164 - services.prompt_classifier - ERROR - LLM classification failed: invalid literal for int() with base 10: '1,'
+2025-10-16 08:29:21,176 - mainn - INFO - [CLASS] invalid_question (confidence: 0.60)
+2025-10-16 08:29:29,969 - mainn - INFO - [QUERY] Processing: show me all customers
+2025-10-16 08:29:30,818 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 08:29:30,839 - services.prompt_classifier - ERROR - LLM classification failed: invalid literal for int() with base 10: '1,'
+2025-10-16 08:29:30,846 - mainn - INFO - [CLASS] data_question (confidence: 0.80)
+2025-10-16 08:29:30,846 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-16 08:29:33,167 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 08:29:33,170 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-16 08:29:35,610 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-16 08:29:36,759 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-16 08:29:37,825 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-16 08:29:37,825 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-16 08:29:37,828 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-16 08:29:37,829 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-16 08:29:37,829 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-16 08:29:39,051 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 08:29:39,056 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-16 08:29:39,396 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/customers?select=%2A "HTTP/2 200 OK"
+2025-10-16 08:29:39,419 - mainn - INFO - [OK] SQL executed successfully on attempt 1
+2025-10-16 08:29:39,419 - mainn - INFO - [VIZ] Creating visualization
+2025-10-16 08:30:01,665 - mainn - INFO - [QUERY] Processing: show me all customers that live in new york
+2025-10-16 08:30:03,395 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 08:30:03,408 - services.prompt_classifier - ERROR - LLM classification failed: invalid literal for int() with base 10: '1,'
+2025-10-16 08:30:03,417 - mainn - INFO - [CLASS] invalid_question (confidence: 0.60)
+2025-10-16 09:09:18,931 - mainn - INFO - [INIT] Starting SMART Vector Text-to-SQL System
+2025-10-16 09:09:20,193 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-16 09:09:20,699 - mainn - INFO - [OK] SMART SYSTEM READY:
+2025-10-16 09:09:20,699 - mainn - INFO - [OK] Vector-based table/column selection
+2025-10-16 09:09:20,699 - mainn - INFO - [OK] Smart SQL pattern matching
+2025-10-16 09:09:20,699 - mainn - INFO - [OK] Minimal context prompts
+2025-10-16 09:09:20,700 - mainn - INFO - [OK] 70% cosine similarity threshold
+2025-10-16 09:09:31,676 - mainn - INFO - [QUERY] Processing: show me all customers that live in new york
+2025-10-16 09:09:31,676 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: show me all customers that live in new york...
+2025-10-16 09:09:32,796 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-16 09:09:32,797 - mainn - INFO - [CLASS] data_question (confidence: 0.80)
+2025-10-16 09:09:32,797 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-16 09:09:35,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 09:09:35,281 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-16 09:09:37,664 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:09:38,904 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:09:39,946 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-16 09:09:39,946 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-16 09:09:39,947 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-16 09:09:39,947 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-16 09:09:39,947 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-16 09:09:41,993 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 09:09:42,024 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-16 09:09:42,031 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-16 09:09:42,044 - mainn - INFO - [FIX] Attempting SQL error correction
+2025-10-16 09:09:42,915 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 09:09:42,923 - mainn - INFO - [FIX] Corrected SQL: SELECT * FROM customers WHERE state = 'NY';...
+2025-10-16 09:09:42,924 - mainn - INFO - [EXEC] SQL execution attempt 2/3
+2025-10-16 09:09:43,278 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/customers?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:09:43,377 - mainn - INFO - [OK] SQL executed successfully on attempt 2
+2025-10-16 09:09:43,377 - mainn - INFO - [VIZ] Creating visualization
+2025-10-16 09:10:43,715 - mainn - INFO - [QUERY] Processing: show me the highest paid employee
+2025-10-16 09:10:43,715 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: show me the highest paid employee...
+2025-10-16 09:10:44,000 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-16 09:10:44,001 - mainn - INFO - [CLASS] data_question (confidence: 0.80)
+2025-10-16 09:10:44,001 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-16 09:10:45,712 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 09:10:45,714 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-16 09:10:46,416 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:10:47,278 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:10:48,334 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-16 09:10:48,335 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-16 09:10:48,335 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-16 09:10:48,336 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-16 09:10:48,336 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-16 09:10:50,452 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 09:10:50,464 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-16 09:10:50,471 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-16 09:10:50,481 - mainn - INFO - [FIX] Attempting SQL error correction
+2025-10-16 09:10:53,179 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 09:10:53,186 - mainn - INFO - [FIX] Corrected SQL: SELECT *
+FROM employees
+ORDER BY salary DESC
+LIMIT 1...
+2025-10-16 09:10:53,186 - mainn - INFO - [EXEC] SQL execution attempt 2/3
+2025-10-16 09:10:53,524 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/employees?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:10:53,541 - mainn - INFO - [OK] SQL executed successfully on attempt 2
+2025-10-16 09:10:53,541 - mainn - INFO - [VIZ] Creating visualization
+2025-10-16 09:12:04,146 - mainn - INFO - [QUERY] Processing: customers by region
+2025-10-16 09:12:04,147 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: customers by region...
+2025-10-16 09:12:04,415 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-16 09:12:04,415 - mainn - INFO - [CLASS] data_question (confidence: 0.70)
+2025-10-16 09:12:04,415 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-16 09:12:06,387 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 09:12:06,388 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-16 09:12:07,910 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:12:08,600 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:12:09,606 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-16 09:12:09,606 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-16 09:12:09,606 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-16 09:12:09,607 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-16 09:12:09,607 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-16 09:12:11,771 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 09:12:11,780 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-16 09:12:11,789 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-16 09:12:11,796 - mainn - INFO - [FIX] Attempting SQL error correction
+2025-10-16 09:12:12,844 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 09:12:12,855 - mainn - INFO - [FIX] Corrected SQL: SELECT region, COUNT(*) as customer_count
+FROM customers
+GROUP BY region
+ORDER BY customer_count DES...
+2025-10-16 09:12:12,856 - mainn - INFO - [EXEC] SQL execution attempt 2/3
+2025-10-16 09:12:13,155 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/customers?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:12:13,176 - mainn - INFO - [OK] SQL executed successfully on attempt 2
+2025-10-16 09:12:13,177 - mainn - INFO - [VIZ] Creating visualization
+2025-10-16 09:12:46,961 - mainn - INFO - [QUERY] Processing: show me sales of each product
+2025-10-16 09:12:46,962 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: show me sales of each product...
+2025-10-16 09:12:47,301 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-16 09:12:47,302 - mainn - INFO - [CLASS] data_question (confidence: 0.80)
+2025-10-16 09:12:47,302 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-16 09:12:48,305 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 09:12:48,306 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-16 09:12:48,914 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:12:49,557 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:12:50,342 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-16 09:12:50,342 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-16 09:12:50,342 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-16 09:12:50,342 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-16 09:12:50,343 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-16 09:12:52,347 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 09:12:52,358 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-16 09:12:52,377 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-16 09:12:52,390 - mainn - INFO - [FIX] Attempting SQL error correction
+2025-10-16 09:12:53,402 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 09:12:53,416 - mainn - INFO - [FIX] Corrected SQL: SELECT *
+FROM sales
+LIMIT 100;...
+2025-10-16 09:12:53,416 - mainn - INFO - [EXEC] SQL execution attempt 2/3
+2025-10-16 09:12:53,750 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/sales?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:12:53,767 - mainn - INFO - [OK] SQL executed successfully on attempt 2
+2025-10-16 09:12:53,767 - mainn - INFO - [VIZ] Creating visualization
+2025-10-16 09:13:29,461 - mainn - INFO - [QUERY] Processing: show me the sales product wise
+2025-10-16 09:13:29,461 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: show me the sales product wise...
+2025-10-16 09:13:29,727 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-16 09:13:29,727 - mainn - INFO - [CLASS] data_question (confidence: 0.80)
+2025-10-16 09:13:29,727 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-16 09:13:30,481 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-16 09:13:30,482 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-16 09:13:32,186 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:13:33,033 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:13:33,829 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-16 09:13:33,829 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-16 09:13:33,830 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-16 09:13:33,830 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-16 09:13:33,830 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-16 09:13:35,845 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 09:13:35,853 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-16 09:13:35,862 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-16 09:13:35,868 - mainn - INFO - [FIX] Attempting SQL error correction
+2025-10-16 09:13:37,242 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-16 09:13:37,251 - mainn - INFO - [FIX] Corrected SQL: SELECT
+product_name,
+SUM(quantity) as total_quantity,
+SUM(amount) as total_sales
+FROM sales
+GROUP BY...
+2025-10-16 09:13:37,251 - mainn - INFO - [EXEC] SQL execution attempt 2/3
+2025-10-16 09:13:37,599 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/sales?select=%2A "HTTP/2 200 OK"
+2025-10-16 09:13:37,617 - mainn - INFO - [OK] SQL executed successfully on attempt 2
+2025-10-16 09:13:37,617 - mainn - INFO - [VIZ] Creating visualization
+2025-10-17 16:25:41,463 - mainn - INFO - [INIT] Starting SMART Vector Text-to-SQL System
+2025-10-17 16:25:43,137 - services.vector_service - INFO - [VECTOR] OpenAI client initialized for embeddings
+2025-10-17 16:25:43,764 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-17 16:25:44,331 - mainn - INFO - [OK] SMART SYSTEM READY:
+2025-10-17 16:25:44,331 - mainn - INFO - [OK] Vector-based table/column selection
+2025-10-17 16:25:44,331 - mainn - INFO - [OK] Smart SQL pattern matching
+2025-10-17 16:25:44,332 - mainn - INFO - [OK] Minimal context prompts
+2025-10-17 16:25:44,332 - mainn - INFO - [OK] 70% cosine similarity threshold
+2025-10-17 16:26:32,506 - mainn - INFO - [INIT] Starting SMART Vector Text-to-SQL System
+2025-10-17 16:26:33,899 - services.vector_service - INFO - [VECTOR] OpenAI client initialized for embeddings
+2025-10-17 16:26:34,476 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-17 16:26:35,385 - mainn - INFO - [OK] SMART SYSTEM READY:
+2025-10-17 16:26:35,385 - mainn - INFO - [OK] Vector-based table/column selection
+2025-10-17 16:26:35,386 - mainn - INFO - [OK] Smart SQL pattern matching
+2025-10-17 16:26:35,386 - mainn - INFO - [OK] Minimal context prompts
+2025-10-17 16:26:35,389 - mainn - INFO - [OK] 70% cosine similarity threshold
+2025-10-17 16:28:09,342 - mainn - INFO - [INIT] Starting SMART Vector Text-to-SQL System
+2025-10-17 16:28:10,692 - services.vector_service - INFO - [VECTOR] OpenAI client initialized for embeddings
+2025-10-17 16:28:11,558 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-17 16:28:12,595 - mainn - INFO - [OK] SMART SYSTEM READY:
+2025-10-17 16:28:12,596 - mainn - INFO - [OK] Vector-based table/column selection
+2025-10-17 16:28:12,596 - mainn - INFO - [OK] Smart SQL pattern matching
+2025-10-17 16:28:12,603 - mainn - INFO - [OK] Minimal context prompts
+2025-10-17 16:28:12,604 - mainn - INFO - [OK] 70% cosine similarity threshold
+2025-10-17 16:28:29,306 - mainn - INFO - [QUERY] Processing: show me the sales product wise
+2025-10-17 16:28:29,307 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: show me the sales product wise...
+2025-10-17 16:28:31,767 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-17 16:28:31,768 - mainn - INFO - [CLASS] data_question (confidence: 0.80)
+2025-10-17 16:28:31,768 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-17 16:28:36,072 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-17 16:28:36,085 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-17 16:28:40,114 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-17 16:28:41,554 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-17 16:28:42,621 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-17 16:28:42,622 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-17 16:28:42,622 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-17 16:28:42,623 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-17 16:28:42,623 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-17 16:28:44,983 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 16:28:45,014 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-17 16:28:45,027 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-17 16:28:45,039 - mainn - INFO - [FIX] Attempting SQL error correction
+2025-10-17 16:28:46,312 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 16:28:46,323 - mainn - INFO - [FIX] Corrected SQL: SELECT
+product_id,
+product_name,
+SUM(quantity) as total_quantity,
+SUM(amount) as total_sales
+FROM sa...
+2025-10-17 16:28:46,324 - mainn - INFO - [EXEC] SQL execution attempt 2/3
+2025-10-17 16:28:46,695 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/sales?select=%2A "HTTP/2 200 OK"
+2025-10-17 16:28:46,715 - mainn - INFO - [OK] SQL executed successfully on attempt 2
+2025-10-17 16:28:46,715 - mainn - INFO - [VIZ] Creating visualization
+2025-10-17 16:30:56,837 - mainn - INFO - [QUERY] Processing: customers by region
+2025-10-17 16:30:56,837 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: customers by region...
+2025-10-17 16:30:57,164 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-17 16:30:57,165 - mainn - INFO - [CLASS] data_question (confidence: 0.70)
+2025-10-17 16:30:57,165 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-17 16:30:59,392 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-17 16:30:59,400 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-17 16:31:00,663 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-17 16:31:01,816 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-17 16:31:02,873 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-17 16:31:02,874 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-17 16:31:02,874 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-17 16:31:02,874 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-17 16:31:02,875 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-17 16:31:06,524 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 16:31:06,547 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-17 16:31:06,558 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-17 16:31:06,572 - mainn - INFO - [FIX] Attempting SQL error correction
+2025-10-17 16:31:08,072 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 16:31:08,113 - mainn - INFO - [FIX] Corrected SQL: SELECT region, COUNT(*) as customer_count
+FROM customers
+GROUP BY region
+ORDER BY customer_count DES...
+2025-10-17 16:31:08,113 - mainn - INFO - [EXEC] SQL execution attempt 2/3
+2025-10-17 16:31:08,551 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/customers?select=%2A "HTTP/2 200 OK"
+2025-10-17 16:31:08,582 - mainn - INFO - [OK] SQL executed successfully on attempt 2
+2025-10-17 16:31:08,583 - mainn - INFO - [VIZ] Creating visualization
+2025-10-17 17:05:14,210 - mainn - INFO - [QUERY] Processing: what is the return policy?
+2025-10-17 17:05:14,224 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: what is the return policy?...
+2025-10-17 17:05:15,006 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-17 17:05:15,007 - mainn - INFO - [CLASS] data_question (confidence: 0.65)
+2025-10-17 17:05:15,008 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-17 17:05:17,017 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-17 17:05:17,033 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-17 17:05:22,387 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-17 17:05:23,641 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-17 17:05:24,675 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-17 17:05:24,676 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-17 17:05:24,680 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-17 17:05:24,681 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-17 17:05:24,681 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-17 17:05:27,307 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 17:05:27,320 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-17 17:05:27,332 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-17 17:05:27,337 - mainn - INFO - [FIX] Attempting SQL error correction
+2025-10-17 17:05:28,564 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 17:05:28,573 - mainn - INFO - [FIX] Corrected SQL: SELECT 'No return policy data available in database' AS message;...
+2025-10-17 17:05:28,574 - mainn - INFO - [EXEC] SQL execution attempt 2/3
+2025-10-17 17:05:29,222 - httpx - INFO - HTTP Request: POST https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/rpc/exec_sql "HTTP/2 404 Not Found"
+2025-10-17 17:05:29,247 - mainn - INFO - [OK] SQL executed successfully on attempt 2
+2025-10-17 17:06:35,840 - mainn - INFO - [QUERY] Processing: what is customer retention?
+2025-10-17 17:06:35,840 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: what is customer retention?...
+2025-10-17 17:06:37,106 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-17 17:06:37,106 - mainn - INFO - [CLASS] non_data_question (confidence: 0.70)
+2025-10-17 17:06:37,108 - mainn - INFO - [VECTOR] Non-data question - creating embedding
+2025-10-17 17:06:38,837 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-17 17:06:40,787 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/business_context?select=%2A "HTTP/2 200 OK"
+2025-10-17 17:06:42,110 - mainn - INFO - [FILTER] Selected 0 relevant context pieces (70%+ similarity)
+2025-10-17 17:06:44,825 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 17:07:22,353 - mainn - INFO - [QUERY] Processing: what is my customer lifetime value?
+2025-10-17 17:07:22,354 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: what is my customer lifetime value?...
+2025-10-17 17:07:22,631 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-17 17:07:22,633 - mainn - INFO - [CLASS] non_data_question (confidence: 0.70)
+2025-10-17 17:07:22,633 - mainn - INFO - [VECTOR] Non-data question - creating embedding
+2025-10-17 17:07:23,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-17 17:07:24,836 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/business_context?select=%2A "HTTP/2 200 OK"
+2025-10-17 17:07:26,232 - mainn - INFO - [FILTER] Selected 0 relevant context pieces (70%+ similarity)
+2025-10-17 17:07:31,269 - anthropic._base_client - INFO - Retrying request to /v1/messages in 0.376898 seconds
+2025-10-17 17:07:35,664 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 17:07:57,628 - mainn - INFO - [QUERY] Processing: show my customer lifetime value
+2025-10-17 17:07:57,628 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: show my customer lifetime value...
+2025-10-17 17:07:57,958 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-17 17:07:57,961 - mainn - INFO - [CLASS] data_question (confidence: 0.70)
+2025-10-17 17:07:57,961 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-17 17:08:00,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-17 17:08:00,048 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-17 17:08:01,200 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-17 17:08:01,951 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-17 17:08:02,729 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-17 17:08:02,729 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-17 17:08:02,730 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-17 17:08:02,730 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-17 17:08:02,730 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-17 17:08:05,886 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 17:08:05,898 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-17 17:08:05,905 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-17 17:08:05,914 - mainn - INFO - [FIX] Attempting SQL error correction
+2025-10-17 17:08:06,954 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 17:08:06,963 - mainn - INFO - [FIX] Corrected SQL: SELECT 0 AS customer_lifetime_value;...
+2025-10-17 17:08:06,963 - mainn - INFO - [EXEC] SQL execution attempt 2/3
+2025-10-17 17:08:07,300 - httpx - INFO - HTTP Request: POST https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/rpc/exec_sql "HTTP/2 404 Not Found"
+2025-10-17 17:08:07,321 - mainn - INFO - [OK] SQL executed successfully on attempt 2
+2025-10-17 17:08:46,989 - mainn - INFO - [QUERY] Processing: show my total lifetime value
+2025-10-17 17:08:46,990 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: show my total lifetime value...
+2025-10-17 17:08:47,321 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-17 17:08:47,322 - mainn - INFO - [CLASS] data_question (confidence: 0.80)
+2025-10-17 17:08:47,322 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-17 17:08:48,122 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-17 17:08:48,126 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-17 17:08:49,734 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-17 17:08:50,396 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-17 17:08:51,171 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-17 17:08:51,171 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-17 17:08:51,172 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-17 17:08:51,172 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-17 17:08:51,172 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-17 17:08:53,789 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 17:08:53,797 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-17 17:08:53,807 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-17 17:08:53,814 - mainn - INFO - [FIX] Attempting SQL error correction
+2025-10-17 17:08:54,882 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 17:08:54,894 - mainn - INFO - [FIX] Corrected SQL: SELECT 0 AS total_lifetime_value;...
+2025-10-17 17:08:54,894 - mainn - INFO - [EXEC] SQL execution attempt 2/3
+2025-10-17 17:08:55,380 - httpx - INFO - HTTP Request: POST https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/rpc/exec_sql "HTTP/2 404 Not Found"
+2025-10-17 17:08:55,397 - mainn - INFO - [OK] SQL executed successfully on attempt 2
+2025-10-17 17:09:09,189 - mainn - INFO - [QUERY] Processing: what is our total revenue
+2025-10-17 17:09:09,189 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: what is our total revenue...
+2025-10-17 17:09:09,526 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-17 17:09:09,527 - mainn - INFO - [CLASS] data_question (confidence: 0.80)
+2025-10-17 17:09:09,527 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-17 17:09:11,053 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-17 17:09:11,055 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-17 17:09:11,645 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-17 17:09:12,318 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-17 17:09:13,285 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-17 17:09:13,287 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-17 17:09:13,289 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-17 17:09:13,290 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-17 17:09:13,291 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-17 17:09:16,975 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 17:09:16,988 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-17 17:09:17,001 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-17 17:09:17,009 - mainn - INFO - [FIX] Attempting SQL error correction
+2025-10-17 17:09:19,016 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 17:09:19,026 - mainn - INFO - [FIX] Corrected SQL: SELECT 0 as total_revenue;
+Note: Without any tables or revenue data available, I've provided a minim...
+2025-10-17 17:09:19,026 - mainn - INFO - [EXEC] SQL execution attempt 2/3
+2025-10-17 17:09:20,367 - httpx - INFO - HTTP Request: POST https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/rpc/exec_sql "HTTP/2 404 Not Found"
+2025-10-17 17:09:20,379 - mainn - INFO - [OK] SQL executed successfully on attempt 2
+2025-10-17 17:10:32,160 - mainn - INFO - [QUERY] Processing: what is our total sales
+2025-10-17 17:10:32,160 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: what is our total sales...
+2025-10-17 17:10:32,426 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-17 17:10:32,427 - mainn - INFO - [CLASS] data_question (confidence: 0.80)
+2025-10-17 17:10:32,427 - mainn - INFO - [VECTOR] Creating user prompt embedding
+2025-10-17 17:10:34,408 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-17 17:10:34,410 - mainn - INFO - [EMBED] Created 512-dim embedding
+2025-10-17 17:10:57,679 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-17 17:10:58,345 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-17 17:10:59,139 - mainn - INFO - [DATA] Retrieved 6 tables, 78 columns
+2025-10-17 17:10:59,139 - mainn - INFO - [FILTER] Selected 0 relevant tables (70%+ similarity)
+2025-10-17 17:10:59,140 - mainn - INFO - [FILTER] Selected 0 relevant columns (70%+ similarity)
+2025-10-17 17:10:59,140 - mainn - INFO - [PATTERN] Found 0 matching SQL patterns
+2025-10-17 17:10:59,140 - mainn - INFO - [SQL_GEN] Using minimal context: 0 tables, 0 columns
+2025-10-17 17:11:01,697 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 17:11:01,714 - mainn - INFO - [EXEC] SQL execution attempt 1/3
+2025-10-17 17:11:01,728 - database_supabase_client - ERROR - SQL execution failed: Only SELECT queries are allowed
+2025-10-17 17:11:01,741 - mainn - INFO - [FIX] Attempting SQL error correction
+2025-10-17 17:11:03,512 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-10-17 17:11:03,525 - mainn - INFO - [FIX] Corrected SQL: SELECT 0 as total_sales;
+Note: Since no tables or sales data are available, this returns a placehold...
+2025-10-17 17:11:03,525 - mainn - INFO - [EXEC] SQL execution attempt 2/3
+2025-10-17 17:11:03,837 - httpx - INFO - HTTP Request: POST https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/rpc/exec_sql "HTTP/2 404 Not Found"
+2025-10-17 17:11:03,854 - mainn - INFO - [OK] SQL executed successfully on attempt 2
+2025-10-19 08:28:04,193 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-19 12:01:06,122 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-19 12:11:44,383 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-19 12:34:58,139 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-19 12:38:31,442 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-20 00:38:34,769 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-20 09:12:16,770 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-20 09:12:36,187 - mainn - INFO - 
+================================================================================
+2025-10-20 09:12:36,296 - mainn - INFO - ================================================================================
+
+2025-10-20 09:12:36,296 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: top 10 products by sales...
+2025-10-20 09:12:37,475 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-20 09:12:37,478 - mainn - INFO - [CLASSIFICATION] data_question (confidence: 0.90)
+2025-10-20 09:12:37,478 - mainn - INFO - [VECTOR] Fetching all tables, columns, and SQL patterns...
+2025-10-20 09:12:40,739 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-20 09:12:41,005 - database_supabase_client - INFO - [DB] Retrieved 6 table descriptions
+2025-10-20 09:12:42,088 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-20 09:12:43,165 - database_supabase_client - INFO - [DB] Retrieved 78 column metadata
+2025-10-20 09:12:43,520 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/common_prompt_sqls?select=%2A "HTTP/2 404 Not Found"
+2025-10-20 09:12:43,524 - database_supabase_client - ERROR - [DB] Failed to get common prompts: {'message': 'relation "public.common_prompt_sqls" does not exist', 'code': '42P01', 'hint': None, 'details': None}
+2025-10-20 09:12:43,525 - mainn - INFO - [DB] Retrieved: 6 tables, 78 columns, 0 patterns
+2025-10-20 09:12:43,528 - mainn - INFO - [VECTOR] Searching for relevant tables (threshold: 0.7)...
+2025-10-20 09:12:43,528 - services.vector_service - INFO - [VECTOR] Searching 6 tables for: 'top 10 products by sales...'
+2025-10-20 09:12:46,629 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-20 09:12:46,636 - services.vector_service - ERROR - [VECTOR] Similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19381')) -> None
+2025-10-20 09:12:46,638 - services.vector_service - ERROR - [VECTOR] Similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19386')) -> None
+2025-10-20 09:12:46,640 - services.vector_service - ERROR - [VECTOR] Similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19420')) -> None
+2025-10-20 09:12:46,645 - services.vector_service - ERROR - [VECTOR] Similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19416')) -> None
+2025-10-20 09:12:46,647 - services.vector_service - ERROR - [VECTOR] Similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19462')) -> None
+2025-10-20 09:12:46,649 - services.vector_service - ERROR - [VECTOR] Similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19419')) -> None
+2025-10-20 09:12:46,670 - mainn - INFO - [VECTOR] Searching for SQL patterns (threshold: 0.7)...
+2025-10-20 09:12:46,671 - services.vector_service - INFO - [VECTOR] Searching 0 SQL patterns for: 'top 10 products by sales...'
+2025-10-22 00:43:47,755 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-22 00:44:05,888 - mainn - INFO - 
+================================================================================
+2025-10-22 00:44:05,983 - mainn - INFO - ================================================================================
+
+2025-10-22 00:44:05,984 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: top 10 products by sales...
+2025-10-22 00:44:07,092 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-22 00:44:07,094 - mainn - INFO - [CLASSIFICATION] data_question (confidence: 0.90)
+2025-10-22 00:44:07,094 - mainn - INFO - [VECTOR] Fetching all tables, columns, and SQL patterns...
+2025-10-22 00:44:10,364 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-22 00:44:10,633 - database_supabase_client - INFO - [DB] Retrieved 6 table descriptions
+2025-10-22 00:44:11,563 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-22 00:44:12,649 - database_supabase_client - INFO - [DB] Retrieved 78 column metadata records
+2025-10-22 00:44:13,006 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/common_prompt_sqls?select=%2A "HTTP/2 404 Not Found"
+2025-10-22 00:44:13,012 - database_supabase_client - ERROR - [DB] Failed to get common prompts: {'message': 'relation "public.common_prompt_sqls" does not exist', 'code': '42P01', 'hint': None, 'details': None}
+2025-10-22 00:44:13,013 - mainn - INFO - [DB] Retrieved: 6 tables, 78 columns, 0 patterns
+2025-10-22 00:44:13,014 - mainn - INFO - [VECTOR] Searching for relevant tables (threshold: 0.7)...
+2025-10-22 00:57:06,692 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-22 00:57:23,248 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-22 00:57:34,064 - mainn - INFO - 
+================================================================================
+2025-10-22 00:57:34,085 - mainn - INFO - ================================================================================
+
+2025-10-22 00:57:34,085 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: top 10 products by sales...
+2025-10-22 00:57:35,563 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-22 00:57:35,564 - mainn - INFO - [CLASSIFICATION] data_question (confidence: 0.90)
+2025-10-22 00:57:35,564 - mainn - INFO - [VECTOR] Fetching all tables, columns, and SQL patterns...
+2025-10-22 00:57:38,508 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-22 00:57:38,645 - database_supabase_client - INFO - [DB] Retrieved 6 table descriptions
+2025-10-22 00:57:39,531 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-22 00:57:40,552 - database_supabase_client - INFO - [DB] Retrieved 78 column metadata records
+2025-10-22 00:57:40,877 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/common_prompt_sqls?select=%2A "HTTP/2 404 Not Found"
+2025-10-22 00:57:40,879 - database_supabase_client - ERROR - [DB] Failed to get common prompts: {'message': 'relation "public.common_prompt_sqls" does not exist', 'code': '42P01', 'hint': None, 'details': None}
+2025-10-22 00:57:40,879 - mainn - INFO - [DB] Retrieved: 6 tables, 78 columns, 0 patterns
+2025-10-22 00:57:40,879 - mainn - INFO - [VECTOR] Searching for relevant tables (threshold: 0.7)...
+2025-10-22 00:57:40,880 - services.vector_service - INFO - [VECTOR] Searching similar tables for: 'top 10 products by sales'
+2025-10-22 00:57:43,914 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-22 00:57:43,921 - services.vector_service - INFO - [VECTOR] Created embedding (dim=512)
+2025-10-22 00:57:43,926 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19381')) -> None
+2025-10-22 00:57:43,927 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19386')) -> None
+2025-10-22 00:57:43,929 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19420')) -> None
+2025-10-22 00:57:43,930 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19416')) -> None
+2025-10-22 00:57:43,931 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19462')) -> None
+2025-10-22 00:57:43,932 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19419')) -> None
+2025-10-22 00:57:43,932 - services.vector_service - INFO - [VECTOR] Found 0 similar items (threshold=0.7)
+2025-10-22 00:57:43,933 - services.vector_service - INFO - [VECTOR] Found 0 similar tables
+2025-10-22 00:57:43,964 - mainn - INFO - [VECTOR] Searching for SQL patterns (threshold: 0.7)...
+2025-10-22 00:57:43,964 - services.vector_service - INFO - [VECTOR] Searching similar SQL patterns for: 'top 10 products by sales'
+2025-10-22 00:57:43,965 - services.vector_service - WARNING - [VECTOR] No SQL patterns provided
+2025-10-22 22:37:02,204 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-22 22:46:35,699 - mainn - INFO - 
+================================================================================
+2025-10-22 22:46:35,818 - mainn - INFO - ================================================================================
+
+2025-10-22 22:46:35,818 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: top 10 products by sales...
+2025-10-22 22:46:38,472 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-22 22:46:38,472 - mainn - INFO - [CLASSIFICATION] data_question (confidence: 0.90)
+2025-10-22 22:46:38,474 - mainn - INFO - [VECTOR] Fetching all tables, columns, and SQL patterns...
+2025-10-22 22:46:41,488 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-22 22:46:41,749 - database_supabase_client - INFO - [DB] Retrieved 6 table descriptions
+2025-10-22 22:46:42,825 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-22 22:46:43,855 - database_supabase_client - INFO - [DB] Retrieved 78 column metadata records
+2025-10-22 22:46:44,170 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/common_prompt_sqls?select=%2A "HTTP/2 200 OK"
+2025-10-22 22:46:44,171 - database_supabase_client - INFO - [DB] Retrieved 5 common prompts
+2025-10-22 22:46:44,171 - mainn - INFO - [DB] Retrieved: 6 tables, 78 columns, 5 patterns
+2025-10-22 22:46:44,171 - mainn - INFO - [VECTOR] Searching for relevant tables (threshold: 0.7)...
+2025-10-22 22:46:44,173 - services.vector_service - INFO - [VECTOR] Searching similar tables for: 'top 10 products by sales'
+2025-10-22 22:46:47,042 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-22 22:46:47,045 - services.vector_service - INFO - [VECTOR] Created embedding (dim=512)
+2025-10-22 22:46:47,049 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19381')) -> None
+2025-10-22 22:46:47,050 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19386')) -> None
+2025-10-22 22:46:47,052 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19420')) -> None
+2025-10-22 22:46:47,054 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19416')) -> None
+2025-10-22 22:46:47,060 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19462')) -> None
+2025-10-22 22:46:47,061 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19419')) -> None
+2025-10-22 22:46:47,061 - services.vector_service - INFO - [VECTOR] Found 0 similar items (threshold=0.7)
+2025-10-22 22:46:47,061 - services.vector_service - INFO - [VECTOR] Found 0 similar tables
+2025-10-22 22:46:47,080 - mainn - INFO - [VECTOR] Searching for SQL patterns (threshold: 0.7)...
+2025-10-22 22:46:47,081 - services.vector_service - INFO - [VECTOR] Searching similar SQL patterns for: 'top 10 products by sales'
+2025-10-22 22:46:47,081 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 22:46:47,082 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 22:46:47,082 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 22:46:47,083 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 22:46:47,084 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 22:46:47,084 - services.vector_service - INFO - [VECTOR] Found 0 similar items (threshold=0.7)
+2025-10-22 22:46:47,086 - services.vector_service - INFO - [VECTOR] Found 0 similar SQL patterns
+2025-10-22 23:35:31,515 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-22 23:40:43,808 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-22 23:41:22,420 - mainn - INFO - 
+================================================================================
+2025-10-22 23:41:22,435 - mainn - INFO - ================================================================================
+
+2025-10-22 23:41:22,436 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: top 10 products by sales...
+2025-10-22 23:41:23,603 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-22 23:41:23,604 - mainn - INFO - [CLASSIFICATION] data_question (confidence: 0.90)
+2025-10-22 23:41:23,604 - mainn - INFO - [VECTOR] Fetching all tables, columns, and SQL patterns...
+2025-10-22 23:41:26,404 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-22 23:41:26,665 - database_supabase_client - INFO - [DB] Retrieved 6 table descriptions
+2025-10-22 23:41:27,562 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-22 23:41:28,628 - database_supabase_client - INFO - [DB] Retrieved 78 column metadata records
+2025-10-22 23:41:28,948 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/common_prompt_sqls?select=%2A "HTTP/2 200 OK"
+2025-10-22 23:41:28,949 - database_supabase_client - INFO - [DB] Retrieved 5 common prompts
+2025-10-22 23:41:28,950 - mainn - INFO - [DB] Retrieved: 6 tables, 78 columns, 5 patterns
+2025-10-22 23:41:28,950 - mainn - INFO - [VECTOR] Searching for relevant tables (threshold: 0.7)...
+2025-10-22 23:41:28,951 - services.vector_service - INFO - [VECTOR] Searching similar tables for: 'top 10 products by sales'
+2025-10-22 23:41:31,086 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-22 23:41:31,090 - services.vector_service - INFO - [VECTOR] Created embedding (dim=512)
+2025-10-22 23:41:31,094 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19381')) -> None
+2025-10-22 23:41:31,095 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19386')) -> None
+2025-10-22 23:41:31,096 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19420')) -> None
+2025-10-22 23:41:31,098 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19416')) -> None
+2025-10-22 23:41:31,099 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19462')) -> None
+2025-10-22 23:41:31,100 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19419')) -> None
+2025-10-22 23:41:31,100 - services.vector_service - INFO - [VECTOR] Found 0 similar items (threshold=0.7)
+2025-10-22 23:41:31,101 - services.vector_service - INFO - [VECTOR] Found 0 similar tables
+2025-10-22 23:41:31,107 - mainn - INFO - [VECTOR] Searching for SQL patterns (threshold: 0.7)...
+2025-10-22 23:41:31,109 - services.vector_service - INFO - [VECTOR] Searching similar SQL patterns for: 'top 10 products by sales'
+2025-10-22 23:41:31,111 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 23:41:31,112 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 23:41:31,113 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 23:41:31,113 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 23:41:31,114 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 23:41:31,114 - services.vector_service - INFO - [VECTOR] Found 0 similar items (threshold=0.7)
+2025-10-22 23:41:31,114 - services.vector_service - INFO - [VECTOR] Found 0 similar SQL patterns
+2025-10-22 23:46:22,156 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-22 23:46:25,265 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-22 23:46:25,516 - database_supabase_client - INFO - [DB] Retrieved 6 table descriptions
+2025-10-22 23:48:45,044 - mainn - INFO - 
+================================================================================
+2025-10-22 23:48:45,063 - mainn - INFO - ================================================================================
+
+2025-10-22 23:48:45,063 - mainn - INFO - [STEP 1] Classifying prompt...
+2025-10-22 23:48:45,064 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: top 10 products by sales...
+2025-10-22 23:48:46,172 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-22 23:48:46,173 - mainn - INFO - [CLASSIFICATION] data_question (confidence: 0.90)
+2025-10-22 23:48:46,173 - mainn - INFO - [METADATA] {'method': 'keyword_classification', 'data_score': 3, 'business_score': 0, 'reason': 'Found 3 data indicators', 'data_keywords_found': ['products', 'top', 'sales'], 'business_keywords_found': []}
+2025-10-22 23:48:46,173 - mainn - INFO - [STEP 2] Handling as DATA question...
+2025-10-22 23:48:46,174 - mainn - INFO - [DB-FETCH] Fetching tables...
+2025-10-22 23:48:47,447 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-22 23:48:47,707 - database_supabase_client - INFO - [DB] Retrieved 6 table descriptions
+2025-10-22 23:48:47,714 - mainn - INFO - [DB-FETCH] Sample table: customers
+2025-10-22 23:48:47,715 - mainn - INFO - [DB-FETCH] Fetching columns...
+2025-10-22 23:48:48,409 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-22 23:48:49,460 - database_supabase_client - INFO - [DB] Retrieved 78 column metadata records
+2025-10-22 23:48:49,465 - mainn - INFO - [DB-FETCH] Sample column: customers.last_name
+2025-10-22 23:48:49,465 - mainn - INFO - [DB-FETCH] Fetching SQL patterns...
+2025-10-22 23:48:49,811 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/common_prompt_sqls?select=%2A "HTTP/2 200 OK"
+2025-10-22 23:48:49,812 - database_supabase_client - INFO - [DB] Retrieved 5 common prompts
+2025-10-22 23:48:49,817 - mainn - INFO - [VECTOR] Creating embedding for: 'top 10 products by sales'
+2025-10-22 23:48:49,817 - mainn - INFO - [VECTOR] Searching for relevant tables (threshold: 0.7)...
+2025-10-22 23:48:49,817 - services.vector_service - INFO - [VECTOR] Searching similar tables for: 'top 10 products by sales'
+2025-10-22 23:48:52,289 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-10-22 23:48:52,293 - services.vector_service - INFO - [VECTOR] Created embedding (dim=512)
+2025-10-22 23:48:52,294 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19381')) -> None
+2025-10-22 23:48:52,295 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19386')) -> None
+2025-10-22 23:48:52,296 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19420')) -> None
+2025-10-22 23:48:52,297 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19416')) -> None
+2025-10-22 23:48:52,297 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19462')) -> None
+2025-10-22 23:48:52,298 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19419')) -> None
+2025-10-22 23:48:52,298 - services.vector_service - INFO - [VECTOR] Found 0 similar items (threshold=0.7)
+2025-10-22 23:48:52,299 - services.vector_service - INFO - [VECTOR] Found 0 similar tables
+2025-10-22 23:48:52,307 - mainn - INFO - [VECTOR] Searching for SQL patterns (threshold: 0.7)...
+2025-10-22 23:48:52,307 - services.vector_service - INFO - [VECTOR] Searching similar SQL patterns for: 'top 10 products by sales'
+2025-10-22 23:48:52,308 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 23:48:52,308 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 23:48:52,309 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 23:48:52,309 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 23:48:52,310 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-22 23:48:52,310 - services.vector_service - INFO - [VECTOR] Found 0 similar items (threshold=0.7)
+2025-10-22 23:48:52,310 - services.vector_service - INFO - [VECTOR] Found 0 similar SQL patterns
+2025-10-22 23:48:52,325 - mainn - INFO - [RESULT] Success: False
+2025-10-23 22:24:58,771 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-23 22:25:04,983 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-23 22:25:05,257 - database_supabase_client - INFO - [DB] Retrieved 6 table descriptions
+2025-10-23 22:25:20,898 - mainn - INFO - 
+================================================================================
+2025-10-23 22:25:21,048 - mainn - INFO - ================================================================================
+
+2025-10-23 22:25:21,048 - mainn - INFO - [STEP 1] Classifying prompt...
+2025-10-23 22:25:21,049 - services.prompt_classifier - INFO - [CLASSIFIER] Classifying: top 10 products by sales...
+2025-10-23 22:25:22,271 - services.prompt_classifier - ERROR - [CLASSIFIER] LLM classification error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-10-23 22:25:22,272 - mainn - INFO - [CLASSIFICATION] data_question (confidence: 0.90)
+2025-10-23 22:25:22,272 - mainn - INFO - [METADATA] {'method': 'keyword_classification', 'data_score': 3, 'business_score': 0, 'reason': 'Found 3 data indicators', 'data_keywords_found': ['products', 'sales', 'top'], 'business_keywords_found': []}
+2025-10-23 22:25:22,273 - mainn - INFO - [STEP 2] Handling as DATA question...
+2025-10-23 22:25:22,273 - mainn - INFO - [DB-FETCH] Fetching tables...
+2025-10-23 22:25:23,486 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-23 22:25:23,729 - database_supabase_client - INFO - [DB] Retrieved 6 table descriptions
+2025-10-23 22:25:23,745 - mainn - INFO - [DB-FETCH] Sample table: customers
+2025-10-23 22:25:23,745 - mainn - INFO - [DB-FETCH] Fetching columns...
+2025-10-23 22:25:24,726 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/column_metadata?select=%2A "HTTP/2 200 OK"
+2025-10-23 22:25:25,774 - database_supabase_client - INFO - [DB] Retrieved 78 column metadata records
+2025-10-23 22:25:25,782 - mainn - INFO - [DB-FETCH] Sample column: customers.last_name
+2025-10-23 22:25:25,782 - mainn - INFO - [DB-FETCH] Fetching SQL patterns...
+2025-10-23 22:25:26,137 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/common_prompt_sqls?select=%2A "HTTP/2 200 OK"
+2025-10-23 22:25:26,138 - database_supabase_client - INFO - [DB] Retrieved 5 common prompts
+2025-10-23 22:25:26,151 - mainn - INFO - [VECTOR] Creating embedding for: 'top 10 products by sales'
+2025-10-23 22:25:26,152 - mainn - INFO - [VECTOR] Searching for relevant tables (threshold: 0.7)...
+2025-10-23 22:25:26,152 - services.vector_service - INFO - [VECTOR] Searching similar tables for: 'top 10 products by sales'
+2025-10-23 22:25:32,005 - openai._base_client - INFO - Retrying request to /embeddings in 0.479133 seconds
+2025-10-23 22:25:37,504 - openai._base_client - INFO - Retrying request to /embeddings in 0.975933 seconds
+2025-10-23 22:25:43,498 - services.vector_service - ERROR - [VECTOR] Embedding creation failed: Request timed out.
+2025-10-23 22:25:43,500 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19381')) -> None
+2025-10-23 22:25:43,501 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19386')) -> None
+2025-10-23 22:25:43,502 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19420')) -> None
+2025-10-23 22:25:43,503 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19416')) -> None
+2025-10-23 22:25:43,509 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19462')) -> None
+2025-10-23 22:25:43,512 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: ufunc 'multiply' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U19419')) -> None
+2025-10-23 22:25:43,513 - services.vector_service - INFO - [VECTOR] Found 0 similar items (threshold=0.7)
+2025-10-23 22:25:43,514 - services.vector_service - INFO - [VECTOR] Found 0 similar tables
+2025-10-23 22:25:43,662 - mainn - INFO - [VECTOR] Searching for SQL patterns (threshold: 0.7)...
+2025-10-23 22:25:43,665 - services.vector_service - INFO - [VECTOR] Searching similar SQL patterns for: 'top 10 products by sales'
+2025-10-23 22:25:48,680 - openai._base_client - INFO - Retrying request to /embeddings in 0.416042 seconds
+2025-10-23 22:25:49,883 - openai._base_client - INFO - Retrying request to /embeddings in 0.905232 seconds
+2025-10-23 22:25:55,803 - services.vector_service - ERROR - [VECTOR] Embedding creation failed: Request timed out.
+2025-10-23 22:25:55,804 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-23 22:25:55,804 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-23 22:25:55,804 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-23 22:25:55,805 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-23 22:25:55,805 - services.vector_service - ERROR - [VECTOR] Cosine similarity calculation failed: unsupported operand type(s) for *: 'float' and 'NoneType'
+2025-10-23 22:25:55,806 - services.vector_service - INFO - [VECTOR] Found 0 similar items (threshold=0.7)
+2025-10-23 22:25:55,806 - services.vector_service - INFO - [VECTOR] Found 0 similar SQL patterns
+2025-10-23 22:25:55,830 - mainn - INFO - [RESULT] Success: False
+2025-10-24 12:41:18,785 - services.prompt_classifier - INFO - [CLASSIFIER] Gemini initialized
+2025-10-24 12:41:22,725 - httpx - INFO - HTTP Request: GET https://vaxkchxwplgatgqlgwvw.supabase.co/rest/v1/table_descriptions?select=%2A "HTTP/2 200 OK"
+2025-10-24 12:41:22,978 - database_supabase_client - INFO - [DB] Retrieved 6 tables

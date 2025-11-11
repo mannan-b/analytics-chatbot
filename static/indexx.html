@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-SQL System</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0f172a; color: #f1f5f9; min-height: 100vh; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; margin-bottom: 30px; }
+        h1 { font-size: 2em; background: linear-gradient(135deg, #2563eb, #7c3aed);
+                    background-clip: text;
+                    -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+
+        .top-bar { display: flex; gap: 10px; margin-bottom: 20px; }
+        .btn { padding: 10px 20px; background: #1e293b; border: 1px solid #334155;
+            border-radius: 6px; color: #f1f5f9; cursor: pointer; }
+        .btn:hover { background: #334155; }
+
+        .search-box { display: flex; gap: 10px; margin-bottom: 20px; }
+        #queryInput { flex: 1; padding: 15px; background: #1e293b; border: 1px solid #334155;
+            border-radius: 8px; color: #f1f5f9; font-size: 1em; }
+        .btn-ask { padding: 15px 40px; background: linear-gradient(135deg, #2563eb, #7c3aed);
+            color: white; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; }
+
+        .suggestions { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+        .suggestion-btn { padding: 8px 15px; background: #1e293b; border: 1px solid #334155;
+            border-radius: 6px; color: #94a3b8; cursor: pointer; font-size: 0.9em; }
+        .suggestion-btn:hover { background: #334155; color: #2563eb; }
+
+        .results-section { display: none; }
+        .results-section.show { display: block; animation: slideIn 0.3s ease; }
+        @keyframes slideIn { from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); } }
+
+        .section-title { font-size: 1.3em; font-weight: 700; margin: 20px 0 15px; }
+        .sql-section { background: #1e293b; border: 1px solid #334155; border-radius: 8px;
+            padding: 20px; margin-bottom: 20px; position: relative; }
+        .sql-code { background: #0f172a; padding: 15px; border-radius: 6px;
+            font-family: 'Monaco', monospace; color: #059669; overflow-x: auto; white-space: pre-wrap; }
+
+        .data-table { width: 100%; border-collapse: collapse; background: #1e293b;
+            border: 1px solid #334155; border-radius: 8px; overflow: hidden; margin-bottom: 20px; }
+        .data-table th { padding: 12px; background: #334155; text-align: left; }
+        .data-table td { padding: 12px; border-bottom: 1px solid #334155; color: #94a3b8; }
+        .data-table tr:hover { background: #334155; }
+
+        .chart-image { max-width: 100%; border-radius: 6px; display: block; margin: 0 auto; }
+
+        .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%;
+            height: 100%; background: rgba(0,0,0,0.8); }
+        .modal-content { background: #1e293b; margin: 5% auto; padding: 30px; width: 90%;
+            max-width: 600px; border-radius: 12px; position: relative; }
+        .close { position: absolute; top: 15px; right: 20px; font-size: 28px;
+            color: #94a3b8; cursor: pointer; }
+
+        .history-item { padding: 10px; background: #0f172a; margin: 5px 0;
+            border-radius: 6px; cursor: pointer; }
+        .history-item:hover { background: #334155; }
+        .history-item small { color: #64748b; }
+
+        .upload-area { border: 2px dashed #334155; border-radius: 8px; padding: 30px;
+            text-align: center; margin: 20px 0; }
+        .upload-area:hover { border-color: #2563eb; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-database"></i> Text-to-SQL System</h1>
+            <p style="color: #94a3b8;">Ask your database in plain English</p>
+        </header>
+
+        <div class="top-bar">
+            <button class="btn" onclick="showHistory()"><i class="fas fa-history"></i> History</button>
+            <button class="btn" onclick="showUpload()"><i class="fas fa-file-pdf"></i> Upload PDF</button>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="queryInput" placeholder="Ask your database..." autocomplete="off">
+            <button class="btn-ask" onclick="askQuestion()"><i class="fas fa-search"></i> Ask</button>
+        </div>
+
+        <div id="suggestions" class="suggestions"></div>
+
+        <div id="resultsSection" class="results-section">
+            <div id="sqlSection" style="display:none;">
+                <h2 class="section-title"><i class="fas fa-code"></i> Generated SQL</h2>
+                <div class="sql-section">
+                    <div class="sql-code" id="sqlQuery"></div>
+                </div>
+            </div>
+
+            <div id="dataSection" style="display:none;">
+                <h2 class="section-title"><i class="fas fa-table"></i> Results <span id="rowCount"></span></h2>
+                <div style="overflow-x: auto;">
+                    <table class="data-table" id="dataTable">
+                        <thead id="tableHead"></thead>
+                        <tbody id="tableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="chartSection" style="display:none;">
+                <h2 class="section-title"><i class="fas fa-chart-bar"></i> Visualization</h2>
+                <div style="background: #1e293b; padding: 20px; border-radius: 8px;">
+                    <img id="chartImage" class="chart-image" alt="Chart" style="display:none;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="historyModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeHistory()">&times;</span>
+            <h2 style="margin-bottom: 20px;">Query History</h2>
+            <div id="historyList"></div>
+        </div>
+    </div>
+
+    <div id="uploadModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeUpload()">&times;</span>
+            <h2 style="margin-bottom: 20px;">Upload PDF for Business Context</h2>
+            <div class="upload-area" onclick="document.getElementById('pdfInput').click()">
+                <i class="fas fa-cloud-upload-alt" style="font-size: 3em; color: #64748b;"></i>
+                <p>Click to select PDF file</p>
+                <input type="file" id="pdfInput" accept=".pdf" style="display:none" onchange="uploadPDF()">
+            </div>
+            <div id="uploadStatus"></div>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = '/query';
+        let lastData = null;
+
+        async function askQuestion() {
+            const query = document.getElementById('queryInput').value.trim();
+            if (!query) return alert('Enter a question');
+
+            try {
+                const response = await fetch(API_URL, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({query, user_id: 'default'})
+                });
+                const data = await response.json();
+                lastData = data;
+                displayResults(data);
+                if (data.data && data.sql_query) {
+                    getSuggestions(query, data.sql_query, data.data);
+                }
+            } catch (error) {
+                alert('Error: ' + error.message);
+            }
+        }
+
+        function displayResults(data) {
+            document.getElementById('resultsSection').classList.add('show');
+            if (data.sql_query) {
+                document.getElementById('sqlQuery').textContent = data.sql_query;
+                document.getElementById('sqlSection').style.display = 'block';
+            }
+            if (data.data && data.data.length > 0) {
+                const thead = document.getElementById('tableHead');
+                const tbody = document.getElementById('tableBody');
+                const headers = Object.keys(data.data[0]);
+                thead.innerHTML = '<tr>' + headers.map(h => `<th>${h}</th>`).join('') + '</tr>';
+                tbody.innerHTML = '';
+                data.data.forEach(row => {
+                    const tr = document.createElement('tr');
+                    headers.forEach(h => {
+                        const td = document.createElement('td');
+                        td.textContent = row[h];
+                        tr.appendChild(td);
+                    });
+                    tbody.appendChild(tr);
+                });
+                document.getElementById('rowCount').textContent = `(${data.row_count} rows)`;
+                document.getElementById('dataSection').style.display = 'block';
+            }
+            if (data.visualization && data.visualization.chart_url) {
+                const img = document.getElementById('chartImage');
+                img.src = data.visualization.chart_url.replace(/\\/g, '/');
+                img.style.display = 'block';
+                document.getElementById('chartSection').style.display = 'block';
+            }
+        }
+
+        async function getSuggestions(query, sql, data) {
+            try {
+                const response = await fetch('/suggest-next', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({user_query: query, sql_query: sql, result_data: data})
+                });
+                const result = await response.json();
+                if (result.success && result.suggestions) {
+                    displaySuggestions(result.suggestions);
+                }
+            } catch (e) {
+                console.log('Suggestions failed:', e);
+            }
+        }
+
+        function displaySuggestions(suggestions) {
+            const div = document.getElementById('suggestions');
+            div.innerHTML = suggestions.map(s => 
+                `<button class="suggestion-btn" onclick="setQuery('${s.replace(/'/g, "\\'")}')">💡 ${s}</button>`
+            ).join('');
+        }
+
+        function setQuery(query) {
+            document.getElementById('queryInput').value = query;
+            askQuestion();
+        }
+
+        async function showHistory() {
+            try {
+                const response = await fetch('/history/default?limit=10');
+                const data = await response.json();
+                if (data.success) {
+                    const html = data.history.map(h => 
+                        `<div class="history-item" onclick="setQuery('${h.query_text.replace(/'/g, "\\'")}')">
+                            <strong>${h.query_text}</strong>
+                            <br><small>${new Date(h.created_at).toLocaleString()}</small>
+                        </div>`
+                    ).join('');
+                    document.getElementById('historyList').innerHTML = html;
+                    document.getElementById('historyModal').style.display = 'block';
+                }
+            } catch (e) {
+                alert('History failed: ' + e.message);
+            }
+        }
+
+        function closeHistory() {
+            document.getElementById('historyModal').style.display = 'none';
+        }
+
+        function showUpload() {
+            document.getElementById('uploadModal').style.display = 'block';
+        }
+
+        function closeUpload() {
+            document.getElementById('uploadModal').style.display = 'none';
+        }
+
+        async function uploadPDF() {
+            const file = document.getElementById('pdfInput').files[0];
+            if (!file) return;
+            const status = document.getElementById('uploadStatus');
+            status.innerHTML = '<p style="color: #2563eb;">Uploading...</p>';
+            try {
+                const formData = new FormData();
+                formData.append('file', file);
+                const response = await fetch('/upload/pdf', {
+                    method: 'POST',
+                    body: formData
+                });
+                const result = await response.json();
+                if (result.success) {
+                    status.innerHTML = `<p style="color: #059669;">✅ Success! ${result.chunks_stored} chunks stored from ${result.pages} pages</p>`;
+                } else {
+                    status.innerHTML = `<p style="color: #dc2626;">❌ Error: ${result.error}</p>`;
+                }
+            } catch (e) {
+                status.innerHTML = `<p style="color: #dc2626;">❌ Error: ${e.message}</p>`;
+            }
+        }
+
+        document.getElementById('queryInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') askQuestion();
+        });
+    </script>
+</body>
+</html>

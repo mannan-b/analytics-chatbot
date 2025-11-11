@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 High-Accuracy Neuralif AI - Complete Working System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: white;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .accuracy-badge {
+            background: #00ff88;
+            color: #000;
+            padding: 8px 16px;
+            border-radius: 25px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 450px 1fr;
+            gap: 25px;
+            height: calc(100vh - 120px);
+        }
+
+        .chat-panel {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .results-panel {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            overflow: hidden;
+        }
+
+        .accuracy-display {
+            background: rgba(0, 255, 136, 0.2);
+            border: 1px solid rgba(0, 255, 136, 0.5);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .accuracy-rate {
+            font-size: 24px;
+            font-weight: bold;
+            color: #00ff88;
+        }
+
+        .suggestions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+
+        .suggestion-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 6px 10px;
+            border-radius: 15px;
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .suggestion-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-1px);
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            max-height: 450px;
+        }
+
+        .message {
+            margin-bottom: 12px;
+            padding: 10px;
+            border-radius: 8px;
+            max-width: 90%;
+            line-height: 1.4;
+        }
+
+        .user-message {
+            background: #007bff;
+            margin-left: auto;
+            text-align: right;
+        }
+
+        .ai-message {
+            background: rgba(255, 255, 255, 0.2);
+            margin-right: auto;
+        }
+
+        .accuracy-message {
+            background: rgba(0, 255, 136, 0.3);
+            border: 1px solid rgba(0, 255, 136, 0.5);
+            margin-right: auto;
+        }
+
+        .feedback-buttons {
+            margin-top: 8px;
+            display: flex;
+            gap: 8px;
+        }
+
+        .feedback-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+            cursor: pointer;
+        }
+
+        .feedback-btn.positive:hover { background: rgba(0, 255, 0, 0.3); }
+        .feedback-btn.negative:hover { background: rgba(255, 0, 0, 0.3); }
+
+        .input-area {
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 14px;
+        }
+
+        .chat-input::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .send-btn {
+            background: #007bff;
+            border: none;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .send-btn:hover {
+            background: #0056b3;
+        }
+
+        .results-header {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 12px;
+        }
+
+        .tab-btn.active {
+            background: #007bff;
+        }
+
+        .result-content {
+            flex: 1;
+            overflow: auto;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .sql-display {
+            background: #1a1a1a;
+            color: #f8f8f2;
+            padding: 12px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            margin-bottom: 12px;
+            border-left: 4px solid #007bff;
+            white-space: pre-wrap;
+        }
+
+        .method-badge {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+            margin-right: 8px;
+        }
+
+        .confidence-bar {
+            background: rgba(255, 255, 255, 0.2);
+            height: 6px;
+            border-radius: 3px;
+            margin: 8px 0;
+            overflow: hidden;
+        }
+
+        .confidence-fill {
+            background: linear-gradient(90deg, #ff4444, #ffaa44, #44ff44);
+            height: 100%;
+            transition: width 0.5s ease;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            font-size: 11px;
+        }
+
+        .data-table th, .data-table td {
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 6px 8px;
+            text-align: left;
+        }
+
+        .data-table th {
+            background: rgba(255, 255, 255, 0.1);
+            font-weight: bold;
+        }
+
+        .chart-container {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            color: #333;
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .metric-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .metric-value {
+            font-size: 2.2em;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .metric-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+            margin-top: 5px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: rgba(255, 255, 255, 0.7);
+            animation: pulse 1.5s infinite;
+        }
+
+        .error {
+            background: rgba(255, 0, 0, 0.2);
+            border: 1px solid rgba(255, 0, 0, 0.5);
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+
+        .metadata {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 8px;
+            border-radius: 6px;
+            margin-top: 8px;
+            font-size: 11px;
+        }
+
+        .learning-indicator {
+            background: rgba(0, 255, 136, 0.2);
+            border: 1px solid rgba(0, 255, 136, 0.5);
+            padding: 8px;
+            border-radius: 6px;
+            margin-top: 8px;
+            font-size: 11px;
+        }
+
+        @media (max-width: 1200px) {
+            .container {
+                grid-template-columns: 1fr;
+                grid-template-rows: 400px 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .chat-panel, .results-panel {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="accuracy-badge">🎯 95%+ ACCURACY SYSTEM</div>
+        <h1>🚀 High-Accuracy Neuralif AI</h1>
+        <p>Learning • Feedback • Performance Tracking • SQLite Memory</p>
+    </div>
+
+    <div class="container">
+        <div class="chat-panel">
+            <div class="accuracy-display">
+                <div class="accuracy-rate" id="accuracyRate">Calculating...</div>
+                <div>System Accuracy</div>
+                <div id="learnedPatterns">0 patterns learned</div>
+            </div>
+            
+            <div class="suggestions">
+                <button class="suggestion-btn" onclick="sendMessage('show customers')">📊 Show Customers</button>
+                <button class="suggestion-btn" onclick="sendMessage('count orders')">🔢 Count Orders</button>
+                <button class="suggestion-btn" onclick="sendMessage('total revenue')">💰 Total Revenue</button>
+                <button class="suggestion-btn" onclick="sendMessage('what is my accuracy')">📈 Check Accuracy</button>
+                <button class="suggestion-btn" onclick="sendMessage('show learning progress')">🧠 Learning Status</button>
+            </div>
+
+            <div class="chat-messages" id="chatMessages">
+                <div class="message ai-message">
+                    <strong>🤖 AI:</strong> Welcome to the High-Accuracy system! I learn from every query and improve with your feedback. Try asking me to show data or check my current accuracy!
+                </div>
+            </div>
+
+            <div class="input-area">
+                <input type="text" class="chat-input" id="chatInput" 
+                       placeholder="Ask me about your data or check my accuracy..." 
+                       onkeypress="handleKeyPress(event)">
+                <button class="send-btn" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+
+        <div class="results-panel">
+            <div class="results-header">
+                <button class="tab-btn active" onclick="switchTab('sql')">🔍 SQL Query</button>
+                <button class="tab-btn" onclick="switchTab('data')">📊 Data Results</button>
+                <button class="tab-btn" onclick="switchTab('chart')">📈 Visualization</button>
+                <button class="tab-btn" onclick="switchTab('accuracy')">🎯 Accuracy Stats</button>
+            </div>
+
+            <div class="result-content">
+                <div id="sqlTab" class="tab-content">
+                    <h4>Generated SQL Query:</h4>
+                    <div class="sql-display" id="sqlDisplay">-- High-accuracy SQL generation ready!
+-- Try: "show customers" or "count orders"
+-- System learns from every query</div>
+                    <div id="sqlMetadata"></div>
+                </div>
+
+                <div id="dataTab" class="tab-content" style="display: none;">
+                    <h4>Query Results:</h4>
+                    <div id="dataResults">
+                        <div class="loading">🚀 Ready to process high-accuracy data queries!</div>
+                    </div>
+                </div>
+
+                <div id="chartTab" class="tab-content" style="display: none;">
+                    <h4>Smart Visualization:</h4>
+                    <div class="chart-container" id="chartContainer">
+                        <div>📈 Charts and visualizations will appear here!</div>
+                        <p>The system creates intelligent charts from your data</p>
+                    </div>
+                </div>
+
+                <div id="accuracyTab" class="tab-content" style="display: none;">
+                    <h4>📊 System Performance:</h4>
+                    <div id="accuracyStats">
+                        <div class="loading">📈 Loading accuracy statistics...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentTab = 'sql';
+        let chartInstance = null;
+        let lastQueryResult = null;
+
+        // Load accuracy stats on startup
+        window.onload = function() {
+            loadAccuracyStats();
+            setTimeout(() => {
+                addMessage('🎯 High-Accuracy system ready! Features: Learning patterns, User feedback, 95%+ accuracy target, SQLite memory', 'ai');
+            }, 1000);
+        };
+
+        // Switch tabs
+        function switchTab(tab) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            document.querySelectorAll('.tab-content').forEach(content => content.style.display = 'none');
+            document.getElementById(tab + 'Tab').style.display = 'block';
+            currentTab = tab;
+
+            // Load accuracy stats when accuracy tab is opened
+            if (tab === 'accuracy') {
+                loadDetailedAccuracyStats();
+            }
+        }
+
+        // Handle Enter key
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        // Main function to send message
+        async function sendMessage(predefinedMessage = null) {
+            const input = document.getElementById('chatInput');
+            const message = predefinedMessage || input.value.trim();
+            
+            if (!message) return;
+            
+            if (!predefinedMessage) {
+                input.value = '';
+            }
+            
+            addMessage(message, 'user');
+            showLoading();
+            
+            try {
+                await processMessage(message);
+            } catch (error) {
+                console.error('Processing error:', error);
+                addMessage('Sorry, I encountered an error processing your request.', 'ai');
+                showError('Processing failed: ' + error.message);
+            }
+        }
+
+        // Process message with high-accuracy system
+        async function processMessage(message) {
+            try {
+                // Call high-accuracy chat endpoint
+                const response = await fetch('/api/chat/message', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        query: message,
+                        user_id: 'web-user',
+                        conversation_id: 'web-chat'
+                    })
+                });
+                
+                const result = await response.json();
+                console.log('Chat API Response:', result);
+                
+                if (result.success) {
+                    handleSuccessfulResponse(result, message);
+                } else {
+                    throw new Error(result.error || 'Chat processing failed');
+                }
+                
+            } catch (error) {
+                console.error('Message processing error:', error);
+                showError('Failed to process message: ' + error.message);
+                addMessage('I encountered an issue, but my learning system is still active! Try a query like "show customers".', 'ai');
+            }
+        }
+
+        // Handle successful response
+        function handleSuccessfulResponse(result, originalMessage) {
+            const responseType = result.type || 'general';
+            
+            switch (responseType) {
+                case 'data_response':
+                    handleDataResponse(result, originalMessage);
+                    break;
+                case 'accuracy_response':
+                case 'learning_response':
+                case 'stats_response':
+                    handleAccuracyResponse(result);
+                    break;
+                case 'feedback_success':
+                    handleFeedbackResponse(result);
+                    break;
+                default:
+                    handleGeneralResponse(result);
+                    break;
+            }
+
+            // Update accuracy display if available
+            if (result.accuracy_info) {
+                updateAccuracyDisplay(result.accuracy_info);
+            }
+        }
+
+        // Handle data query responses
+        function handleDataResponse(result, originalMessage) {
+            // Display message with method info
+            let message = result.message;
+            if (result.method) {
+                message += ` (Method: ${result.method})`;
+            }
+            
+            addMessage(message, 'ai');
+            
+            // Display SQL
+            if (result.sql_query) {
+                displaySQL(result.sql_query, result);
+            }
+            
+            // Display data
+            if (result.data) {
+                displayData(result.data);
+                lastQueryResult = result;
+                
+                // Create visualization
+                if (result.data.length > 0) {
+                    createVisualization(result.data, originalMessage);
+                }
+            }
+            
+            // Add feedback buttons for data queries
+            if (result.feedback_request && result.feedback_request.enabled) {
+                addFeedbackButtons(result.feedback_request.query_id);
+            }
+            
+            // Show insights
+            if (result.insights && result.insights.length > 0) {
+                addMessage('💡 Insights: ' + result.insights.join(' • '), 'ai');
+            }
+        }
+
+        // Handle accuracy-related responses
+        function handleAccuracyResponse(result) {
+            addMessage(result.message, 'accuracy');
+            
+            if (result.accuracy_details) {
+                updateAccuracyDisplay(result.accuracy_details);
+            }
+            
+            if (result.learning_details) {
+                const learningInfo = `🧠 Learning: ${result.learning_details.total_patterns} patterns, Methods: ${result.learning_details.learning_methods.join(', ')}`;
+                addMessage(learningInfo, 'accuracy');
+            }
+        }
+
+        // Handle feedback responses
+        function handleFeedbackResponse(result) {
+            addMessage(result.message, 'accuracy');
+            
+            if (result.learning_impact) {
+                const impact = `📈 Impact: ${result.learning_impact.accuracy_improvement} accuracy, ${result.learning_impact.patterns_learned} patterns learned`;
+                addMessage(impact, 'accuracy');
+                
+                // Refresh accuracy stats
+                loadAccuracyStats();
+            }
+        }
+
+        // Handle general responses
+        function handleGeneralResponse(result) {
+            addMessage(result.message, 'ai');
+            
+            if (result.suggestions) {
+                const suggestions = result.suggestions.slice(0, 3).join(' • ');
+                addMessage('💡 Try: ' + suggestions, 'ai');
+            }
+        }
+
+        // Display SQL with enhanced metadata
+        function displaySQL(sql, metadata) {
+            const sqlDisplay = document.getElementById('sqlDisplay');
+            const sqlMetadata = document.getElementById('sqlMetadata');
+            
+            sqlDisplay.textContent = sql;
+            
+            let metadataHTML = '<div class="metadata">';
+            
+            if (metadata.method) {
+                const methodColor = getMethodColor(metadata.method);
+                metadataHTML += `<span class="method-badge" style="background-color: ${methodColor}">${metadata.method.toUpperCase()}</span>`;
+            }
+            
+            if (metadata.confidence) {
+                const confidencePercent = (metadata.confidence * 100).toFixed(1);
+                metadataHTML += `<br><strong>Confidence:</strong> ${confidencePercent}%`;
+                metadataHTML += `<div class="confidence-bar"><div class="confidence-fill" style="width: ${confidencePercent}%"></div></div>`;
+            }
+            
+            if (metadata.table_used) {
+                metadataHTML += `<br><strong>Table:</strong> ${metadata.table_used}`;
+            }
+            
+            if (metadata.execution_time) {
+                metadataHTML += `<br><strong>Execution Time:</strong> ${metadata.execution_time.toFixed(3)}s`;
+            }
+            
+            metadataHTML += '</div>';
+            
+            if (metadata.learning_active) {
+                metadataHTML += '<div class="learning-indicator">🧠 This query helps improve the learning system!</div>';
+            }
+            
+            sqlMetadata.innerHTML = metadataHTML;
+        }
+
+        // Get color for different methods
+        function getMethodColor(method) {
+            const colors = {
+                'learned_pattern': '#28a745',
+                'core_pattern': '#007bff',
+                'fuzzy_match': '#ffc107',
+                'semantic_analysis': '#17a2b8',
+                'fallback': '#6c757d'
+            };
+            return colors[method] || '#6c757d';
+        }
+
+        // Display data results
+        function displayData(data) {
+            const dataResults = document.getElementById('dataResults');
+            
+            if (!data || data.length === 0) {
+                dataResults.innerHTML = '<div class="loading">No data found for this query</div>';
+                return;
+            }
+            
+            // Single metric display
+            if (data.length === 1 && Object.keys(data[0]).length === 1) {
+                const key = Object.keys(data[0])[0];
+                const value = data[0][key];
+                
+                dataResults.innerHTML = `
+                    <div class="metric-card">
+                        <div class="metric-value">${typeof value === 'number' ? value.toLocaleString() : value}</div>
+                        <div class="metric-label">${key.replace(/_/g, ' ').toUpperCase()}</div>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Create data table
+            let tableHTML = '<table class="data-table"><thead><tr>';
+            
+            const headers = Object.keys(data[0]);
+            headers.forEach(header => {
+                tableHTML += `<th>${header.replace(/_/g, ' ').toUpperCase()}</th>`;
+            });
+            tableHTML += '</tr></thead><tbody>';
+            
+            const displayData = data.slice(0, 100);
+            displayData.forEach(row => {
+                tableHTML += '<tr>';
+                headers.forEach(header => {
+                    const value = row[header];
+                    const displayValue = typeof value === 'number' ? value.toLocaleString() : (value || '');
+                    tableHTML += `<td>${displayValue}</td>`;
+                });
+                tableHTML += '</tr>';
+            });
+            
+            tableHTML += '</tbody></table>';
+            
+            if (data.length > 100) {
+                tableHTML += `<div class="metadata">Showing first 100 of ${data.length} total results</div>`;
+            }
+            
+            dataResults.innerHTML = tableHTML;
+        }
+
+        // Create visualization
+        async function createVisualization(data, queryContext) {
+            const chartContainer = document.getElementById('chartContainer');
+            
+            try {
+                const response = await fetch('/api/visualization/create', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        data: data.slice(0, 50),
+                        query_context: queryContext,
+                        chart_title: `Results: ${queryContext}`
+                    })
+                });
+                
+                const vizResult = await response.json();
+                console.log('Visualization API Response:', vizResult);
+                
+                if (vizResult.success) {
+                    displayVisualization(vizResult);
+                } else {
+                    chartContainer.innerHTML = `<div>📊 Visualization: ${vizResult.error || 'Could not create chart'}</div>`;
+                }
+                
+            } catch (error) {
+                console.error('Visualization error:', error);
+                chartContainer.innerHTML = '<div>📊 Visualization service temporarily unavailable</div>';
+            }
+        }
+
+        // Display visualization
+        function displayVisualization(vizResult) {
+            const container = document.getElementById('chartContainer');
+            
+            if (vizResult.chart_base64) {
+                container.innerHTML = `
+                    <div style="text-align: center; width: 100%;">
+                        <h4>${vizResult.title || 'Data Visualization'}</h4>
+                        <img src="data:image/png;base64,${vizResult.chart_base64}" alt="Chart" style="max-width: 100%; height: auto; border-radius: 8px;" />
+                        <div class="metadata">
+                            <strong>Chart Type:</strong> ${vizResult.chart_type || 'Auto-generated'}<br>
+                            ${vizResult.insights ? '<strong>Insights:</strong> ' + vizResult.insights.join(' • ') : ''}
+                        </div>
+                    </div>
+                `;
+            } else if (vizResult.chart_url) {
+                container.innerHTML = `
+                    <div style="text-align: center; width: 100%;">
+                        <h4>${vizResult.title || 'Data Visualization'}</h4>
+                        <img src="${vizResult.chart_url}" alt="Chart" style="max-width: 100%; height: auto; border-radius: 8px;" />
+                    </div>
+                `;
+            } else {
+                container.innerHTML = `
+                    <div>
+                        <h4>📊 ${vizResult.title || 'Visualization Created'}</h4>
+                        <p>${vizResult.description || 'Chart generated successfully'}</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Add feedback buttons
+        function addFeedbackButtons(queryId) {
+            const chatMessages = document.getElementById('chatMessages');
+            const feedbackDiv = document.createElement('div');
+            feedbackDiv.className = 'message ai-message';
+            feedbackDiv.innerHTML = `
+                <strong>📝 Feedback:</strong> Was this result helpful?
+                <div class="feedback-buttons">
+                    <button class="feedback-btn positive" onclick="submitFeedback(true, '${queryId}')">✅ Yes</button>
+                    <button class="feedback-btn negative" onclick="submitFeedback(false, '${queryId}')">❌ No</button>
+                </div>
+            `;
+            chatMessages.appendChild(feedbackDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // Submit feedback
+        async function submitFeedback(isCorrect, queryId) {
+            if (!lastQueryResult) {
+                addMessage('No query result to provide feedback on.', 'ai');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/feedback/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        user_query: lastQueryResult.original_query || 'Unknown query',
+                        generated_sql: lastQueryResult.sql_query || '',
+                        is_correct: isCorrect,
+                        user_id: 'web-user'
+                    })
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    const feedbackMessage = isCorrect ? 
+                        '✅ Thanks! This positive feedback improves the system.' : 
+                        '📝 Thanks for the correction! The system is learning.';
+                    
+                    addMessage(feedbackMessage, 'accuracy');
+                    
+                    // Refresh accuracy stats
+                    loadAccuracyStats();
+                } else {
+                    addMessage('Failed to record feedback: ' + result.error, 'ai');
+                }
+
+            } catch (error) {
+                console.error('Feedback error:', error);
+                addMessage('Error submitting feedback: ' + error.message, 'ai');
+            }
+        }
+
+        // Load accuracy statistics
+        async function loadAccuracyStats() {
+            try {
+                const response = await fetch('/api/accuracy/stats');
+                const stats = await response.json();
+                
+                if (stats.accuracy_stats) {
+                    const accuracy = stats.accuracy_stats.accuracy_rate;
+                    const patterns = stats.accuracy_stats.learned_patterns;
+                    
+                    document.getElementById('accuracyRate').textContent = `${(accuracy * 100).toFixed(1)}%`;
+                    document.getElementById('learnedPatterns').textContent = `${patterns} patterns learned`;
+                }
+                
+            } catch (error) {
+                console.error('Failed to load accuracy stats:', error);
+            }
+        }
+
+        // Load detailed accuracy statistics
+        async function loadDetailedAccuracyStats() {
+            try {
+                const response = await fetch('/api/accuracy/stats');
+                const stats = await response.json();
+                
+                const accuracyStatsDiv = document.getElementById('accuracyStats');
+                
+                if (stats.accuracy_stats) {
+                    const acc = stats.accuracy_stats;
+                    
+                    let html = `
+                        <div class="metric-card">
+                            <div class="metric-value">${(acc.accuracy_rate * 100).toFixed(1)}%</div>
+                            <div class="metric-label">CURRENT ACCURACY</div>
+                        </div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px;">
+                            <div class="metric-card">
+                                <div class="metric-value">${acc.total_queries}</div>
+                                <div class="metric-label">Total Queries</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-value">${acc.learned_patterns}</div>
+                                <div class="metric-label">Learned Patterns</div>
+                            </div>
+                        </div>
+                        <div class="metadata">
+                            <strong>Method Performance:</strong><br>
+                    `;
+                    
+                    Object.entries(acc.method_stats).forEach(([method, count]) => {
+                        if (count > 0) {
+                            html += `• ${method.replace('_', ' ')}: ${count} queries<br>`;
+                        }
+                    });
+                    
+                    html += '</div>';
+                    
+                    accuracyStatsDiv.innerHTML = html;
+                } else {
+                    accuracyStatsDiv.innerHTML = '<div class="error">Failed to load accuracy statistics</div>';
+                }
+                
+            } catch (error) {
+                console.error('Failed to load detailed accuracy stats:', error);
+                document.getElementById('accuracyStats').innerHTML = '<div class="error">Error loading statistics</div>';
+            }
+        }
+
+        // Update accuracy display
+        function updateAccuracyDisplay(accuracyInfo) {
+            if (accuracyInfo.accuracy_rate) {
+                document.getElementById('accuracyRate').textContent = accuracyInfo.accuracy_rate;
+            }
+            if (accuracyInfo.learned_patterns) {
+                document.getElementById('learnedPatterns').textContent = `${accuracyInfo.learned_patterns} patterns learned`;
+            }
+        }
+
+        // Add message to chat
+        function addMessage(message, type) {
+            const chatMessages = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type}-message`;
+            
+            const prefix = type === 'user' ? '👤 You:' : 
+                          type === 'accuracy' ? '🎯 System:' : '🤖 AI:';
+            
+            messageDiv.innerHTML = `<strong>${prefix}</strong> ${message}`;
+            
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        // Show loading state
+        function showLoading() {
+            document.getElementById('sqlDisplay').textContent = '-- Generating high-accuracy SQL query...';
+            document.getElementById('dataResults').innerHTML = '<div class="loading">🎯 Processing with learning system...</div>';
+            document.getElementById('chartContainer').innerHTML = '<div style="text-align: center;">📊 Preparing intelligent visualization...</div>';
+        }
+
+        // Show error
+        function showError(message) {
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'error';
+            errorDiv.innerHTML = `<strong>⚠️ Error:</strong> ${message}`;
+            
+            document.getElementById('sqlTab').prepend(errorDiv);
+            
+            setTimeout(() => {
+                if (errorDiv.parentNode) {
+                    errorDiv.parentNode.removeChild(errorDiv);
+                }
+            }, 8000);
+        }
+    </script>
+</body>
+</html>

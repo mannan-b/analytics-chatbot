@@ -1,0 +1,43 @@
+supabase 
+sqlalchemy
+psycopg2-binary
+redis
+pgvector
+
+# LLM Providers
+openai
+google-generativeai
+anthropic
+cohere
+
+# Document Processing
+PyPDF2
+python-docx
+beautifulsoup4
+requests
+playwright
+
+# Data Processing and Visualization
+pandas
+numpy
+matplotlib
+plotly
+Pillow
+
+# Utilities
+python-dotenv
+pydantic
+uuid
+hashlib-compat
+asyncio
+aiofiles
+
+# FastAPI and server dependencies
+fastapi
+uvicorn[standard]
+websockets
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+
+supabase sqlalchemy psycopg2-binary redis pgvector openai google-generativeai anthropic cohere PyPDF2 python-docx beautifulsoup4 requests playwright pandas numpy matplotlib plotly Pillow python-dotenv pydantic uuid hashlib-compat asyncio aiofiles fastapi uvicorn websockets python-multipart python-jose passlib
